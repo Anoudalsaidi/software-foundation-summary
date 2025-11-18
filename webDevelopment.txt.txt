@@ -86,3 +86,84 @@ AI-powered automation and chatbots
 Serverless architecture
 
 Web accessibility standards (WCAG)
+
+
+1. Front-End Responsibilities (Client-Side)
+
+The front-end is everything the user sees and interacts with on the screen.
+Main responsibilities:
+
+Design and Layout: Creating the structure, colors, fonts, and overall appearance using HTML, CSS, and frameworks.
+
+User Interaction: Adding buttons, animations, forms, menus, and interactive elements using JavaScript.
+
+Responsive Design: Ensuring the website works well on phones, tablets, and desktops.
+
+User Experience (UX): Making the interface simple, smooth, and enjoyable.
+
+Communication with Back-End: Sending user actions (login, submit form, search) to the server through APIs.
+
+Goal: Deliver a beautiful, fast, and easy-to-use interface.
+
+2. Back-End Responsibilities (Server-Side)
+
+The back-end is the hidden part that users don’t see, but it powers everything.
+
+Main responsibilities:
+
+Business Logic: Processing actions (e.g., checking login details, calculating prices, handling payments).
+
+Data Handling: Receiving requests from the front-end and returning the correct data.
+
+Security: Protecting data, managing authentication, and validating inputs.
+
+Server Operations: Managing performance, load, and communication between systems.
+
+Integration: Connecting with APIs, external services, and databases.
+
+Goal: Ensure the website functions correctly, quickly, and securely.
+
+3. Database Responsibilities
+
+The database stores all the important information of the system.
+
+Main responsibilities:
+
+Data Storage: Saving user accounts, products, orders, messages—anything needed.
+
+Data Retrieval: Providing data to the back-end when requested.
+
+Data Updates: Adding, modifying, or deleting records safely.
+
+Data Integrity: Ensuring data remains accurate, consistent, and organized.
+
+Backups: Keeping copies of data to prevent loss.
+
+Goal: Store and manage data efficiently and safely.
+
+How They Work Together (Simple Example)
+
+User: Logs into a website
+
+Front-End: Shows the login form → sends username & password to the server.
+
+Back-End: Checks the credentials → requests user info from the database.
+
+Database: Returns the stored user data.
+
+Back-End: Confirms if login is correct → sends approval.
+
+Front-End: Shows a welcome page.
+
+
+Front-End Responsibilities
+
+The front-end is responsible for everything the user sees and interacts with on the website. It handles the design, layout, and user experience using technologies like HTML, CSS, and JavaScript. It ensures the site looks good on all devices (responsive design) and communicates with the backend to send and receive data.
+
+Back-End Responsibilities
+
+The back-end manages the behind-the-scenes operations that users don’t see. It processes user requests, applies business logic, handles security, and connects with databases. The back-end also controls authentication, API creation, and server performance, ensuring the system works correctly and securely.
+
+Database Responsibilities
+
+The database is responsible for storing, organizing, and retrieving all application data. It keeps information safe, consistent, and accessible for the backend. It handles tasks such as saving new records, updating existing ones, deleting old data, and performing backups to prevent data loss.
