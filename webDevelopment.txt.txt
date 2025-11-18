@@ -167,3 +167,96 @@ The back-end manages the behind-the-scenes operations that users don’t see. It
 Database Responsibilities
 
 The database is responsible for storing, organizing, and retrieving all application data. It keeps information safe, consistent, and accessible for the backend. It handles tasks such as saving new records, updating existing ones, deleting old data, and performing backups to prevent data loss.
+
+
+1. SQL Server
+
+Microsoft SQL Server is a relational database management system used to store, manage, and retrieve data.
+
+Responsibilities and Features
+
+Data Storage: Stores all application data such as users, products, orders, logs, etc.
+
+Tables & Relationships: Organizes data in tables with strong relational structure (primary keys, foreign keys).
+
+Security: Provides encryption, authentication, user roles, and permissions for safe data access.
+
+Performance Tools: Offers indexing, stored procedures, triggers, and transactions for efficient operations.
+
+Scalability: Suitable for both small systems and large enterprise-level applications.
+Used for: Any .NET application needing a secure, reliable, high-performance database.
+
+2. C# (C-Sharp)
+
+C# is the primary programming language used in the .NET ecosystem.
+
+Responsibilities and Features
+
+Core Application Logic: All business rules, calculations, and processing are written in C#.
+
+Object-Oriented: Supports classes, inheritance, polymorphism, making code clean and structured.
+
+Versatile: Used for web apps, APIs, desktop apps, mobile apps (via Xamarin/MAUI), and cloud services.
+
+Strongly Typed: Reduces errors and improves reliability by enforcing type safety.
+
+Rich Libraries: Comes with a huge standard library for handling files, networking, security, and more.
+Used for: Writing APIs, backend logic, Blazor components, and all server-side operations.
+
+3. Entity Framework Core (EF Core)
+
+EF Core is an Object–Relational Mapper (ORM) used in .NET to interact with databases more easily.
+
+Responsibilities and Features
+
+Maps C# Classes to Database Tables: Instead of writing SQL queries manually, you work with objects.
+
+CRUD Operations Without SQL: Create, Read, Update, Delete operations using C# code.
+
+Migrations: Automatically updates the database schema when your C# models change.
+
+Cross-Platform: Works with SQL Server, MySQL, PostgreSQL, and others.
+
+Tracking & Change Detection: Detects changes in objects and updates the database accordingly.
+Used for: Simplifying database communication and reducing boilerplate SQL code.
+
+4. LINQ (Language Integrated Query)
+
+LINQ is a powerful querying tool built into C#.
+
+Responsibilities and Features
+
+Query Collections & Databases: Allows developers to search, filter, and transform data using simple expressions.
+
+Readable Queries: More readable than SQL for many tasks (e.g., filtering lists or objects).
+
+Works With Many Sources: LINQ to Objects, LINQ to SQL, LINQ to Entities (EF Core), LINQ to XML.
+
+Strongly Typed: Errors are caught during compilation instead of runtime.
+
+Chaining and Transformations: Supports select, where, group, orderby, join, etc.
+Used for: Writing clean, readable data queries inside C# code.
+
+5. Blazor
+
+Blazor is a modern framework in .NET for building interactive web interfaces using C# instead of JavaScript.
+
+Types
+
+Blazor Server: Runs on the server, sending updates to the browser through SignalR.
+
+Blazor WebAssembly: Runs directly in the browser using WebAssembly.
+
+Responsibilities and Features
+
+Frontend Using C#: Allows developers to build the UI with C# and Razor instead of JavaScript frameworks like React or Angular.
+
+Components-Based: UI is built with reusable components that handle both layout and logic.
+
+Full Stack .NET: Same language (C#) for both front-end and back-end.
+
+Two-Way Data Binding: Automatically keeps UI and data in sync.
+
+Secure Routing & Forms: Includes built-in routing, validation, and authorization features.
+
+Used for: Building modern, full-featured web applications entirely in C#.
