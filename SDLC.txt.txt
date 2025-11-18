@@ -1,0 +1,466 @@
+Software Development Life Cycle (SDLC)
+
+ 
+
+main goal 
+
+ 
+
+roles 
+
+ 
+
+tools   
+
+ 
+
+missing requirements can affect 
+
+ 
+
+example 
+Phases1 Analysis 
+
+Meet with clients to collect and analyse their requirements to understand what the system should do and prepare a detailed requirement document 
+
+ 
+
+Business Analyst, doc BRS 
+
+ 
+
+Meeting, calls or docs 
+
+If important requirements are missed, the project will not have a strong base. 
+The team may not clearly understand what the client really wants   
+
+ 
+
+Online food delivery app Business Analyst meets with restaurant owners, they collect information: Users want to order food easily from Restaurants & need to manage orders and menus. 
+
+The team analyses these needs and prepares a requirement document 
+
+ 
+
+ 
+
+ 
+
+main goal 
+
+ 
+
+roles 
+
+ 
+
+tools   
+
+ 
+
+difference between system design and UI/UX design 
+
+ 
+
+example 
+
+ 
+
+ 
+
+ 
+
+Phases2    Design 
+
+ 
+
+create a detailed blueprint of the system—including user and system interfaces, network and database requirements, operational plans, and a design document—to guide development and future maintenance. 
+
+ 
+
+Designers, 
+
+Developer, Development Managers 
+
+ 
+
+ 
+
+Flowcharts, 
+
+ER diagrams, 
+
+mockups for UI/UX design 
+
+ 
+
+System design focuses on the overall architecture, functionality, and technical aspects of a software system, while UI/UX design focuses on the user interface, usability, and overall user experience. 
+
+ 
+
+ 
+
+A mobile app was not designed for all screen sizes, so some users couldn’t use it, causing bad reviews and expensive fixes. This shows that ignoring UI and UX in design can increase costs and risks. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+main goal 
+
+ 
+
+tools 
+
+ 
+
+Identify front-end and back-end responsibilities  
+
+ 
+
+Explain why proper version control is essential in this phase 
+
+ 
+
+example 
+
+ 
+
+ 
+
+ 
+
+Phases3  Development  
+
+ 
+
+create a detailed blueprint of the system—including user and system interfaces, network and database requirements, operational plans, and a design document—to guide development and future maintenance. 
+
+ 
+
+ 
+
+Visual Studio, 
+
+GitHub, 
+
+MySQL 
+
+ 
+
+ 
+
+ 
+
+Front-end handles the user interface, interactions, and visual design, while back-end manages databases, server logic, APIs, and system performance. 
+
+ 
+
+ 
+
+Proper version control is essential in development because it tracks changes, enables collaboration, prevents data loss, and ensures organized and safe code management. 
+
+ 
+
+ 
+
+ 
+
+Quibi 2020  
+
+failed because the app was rushed to market with bugs and poor compatibility, causing low adoption and financial losses, showing that skipping proper testing and quality practices can lead to project failure. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+main goal 
+
+ 
+
+Testing Types 
+
+ 
+
+tools   
+
+ 
+
+ automated testing improves efficiency 
+
+ 
+
+example 
+
+ 
+
+ 
+
+ 
+
+Phases4   Testing 
+
+The Testing Phase detects and fixes software defects to ensure functionality, security, stability, performance, and that user requirements are met before deployment. 
+
+ 
+
+ 
+
+unit testing, 
+
+ performance testing, 
+
+user acceptance testing (UAT)   
+
+ 
+
+ 
+
+Appium, 
+
+Test Complete, 
+
+QTP / UFT 
+
+ 
+
+improves efficiency by running tests faster, consistently, and repeatedly, catching bugs early, supporting regression testing, and saving time and resources. and overall user experience. 
+
+ 
+
+ 
+
+a company implemented a “shift‑left” testing approach by introducing unit tests, code reviews, and QA involvement early in development — which helped them identify and fix major issues before release. As a result, their post‑release defect rate dropped by about 30% 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+main goal 
+
+ 
+
+ how DevOps practices support 
+
+ 
+
+tools   
+
+ 
+
+ 
+
+example 
+
+ 
+
+ 
+
+ 
+
+Phases5  Deployment 
+
+delivers the software to users, ensuring it is installed, configured, and functioning correctly, with training, documentation, and post-release support in place. 
+
+ 
+
+ 
+
+by automating releases, enabling team collaboration, ensuring consistent infrastructure, monitoring performance, and making deployments faster and more reliable. 
+
+   
+
+ 
+
+ 
+
+Azure, 
+
+Docker, 
+
+Google Cloud 
+
+ 
+
+ 
+
+Slack Outage (January 2021)During a deployment update, Slack experienced widespread downtime due to a server misconfiguration. This caused millions of users to be unable to send messages, access channels, or collaborate, disrupting work for many companies. This shows that deployment errors can directly affect user productivity and trust, highlighting the importance of careful deployment planning, testing, and rollback procedures 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ why this phase never truly ends 
+
+ 
+
+3 maintenance activities 
+
+ 
+
+tools   
+
+ 
+
+ how user feedback influences maintenance decisions. 
+ 
+
+example 
+
+ 
+
+ 
+
+ 
+
+Phases6 Maintenance 
+
+The Maintenance Phase never truly ends because software requires ongoing bug fixes, updates, security patches, compatibility adjustments, and user-driven improvements. 
+
+ 
+
+ 
+
+ 
+
+Fixing Bugs, 
+
+Updating Software, 
+
+Improving Features 
+
+   
+
+ 
+
+ 
+
+ServiceNow, 
+
+Bugzilla 
+
+ 
+
+User feedback guides maintenance by highlighting bugs, improvement needs, and feature requests, helping developers prioritize updates and keep the software user-friendly. 
+
+ 
+
+Microsoft Windows Server Updates 
+
+Microsoft regularly releases updates and patches for Windows Server to fix bugs, close security vulnerabilities, and improve performance. These maintenance activities prevent critical system failures, security breaches, and downtime for businesses that rely on Windows Server for operations. This cause Ongoing maintenance through updates and patches is essential to keep software stable, secure, and reliable. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Part2:  LinkedIn map onto the SDLC (Software Development Life Cycle): 
+
+ 
+
+Requirement Analysis: 
+
+ 
+
+Identify needs such as professional networking features, job listings, messaging between users, profile creation, and recommendation systems. 
+
+ 
+
+ 
+
+Design: 
+
+Plan the system architecture (user interface‑web and mobile, backend servers, databases), design the UI/UX (profile page, feed, messaging), and decide on network and scale requirements 
+
+ 
+
+Development: 
+
+Build the front‑end for web and mobile platforms, implement backend logic for user accounts, connections, messaging, job search and recommendations, integrate third‑party services 
+
+ 
+
+Testing: 
+
+Test functionality (profile creation, search, messaging), performance (scale for millions of users), security (data protection, authentication), and compatibility across devices. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Deployment: 
+
+Release the app updates to app stores and web, configure servers and infrastructure to handle production traffic, monitor live system performance. 
+
+ 
+
+ 
+
+ 
+
+Maintenance: Ongoing bug fixes, feature updates (e.g., new networking tools, premium services), security patches, adapting to new OS versions and devices, improving scalability and stability. 
+
+ 
+
+ 
